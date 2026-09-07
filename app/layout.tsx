@@ -27,6 +27,24 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <Navbar />
         {children}
+        <footer className="footer">
+          <div className="footer-links">
+              <a href="mailto:abdelrahmanislam116@email.com" className="footer-link">
+                  abdelrahmanislam116@email.com
+              </a>
+
+              <span>·</span>
+
+              <a
+                  href="https://github.com/Abdur-RahmanIslam2010"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-link"
+              >
+                  GitHub
+              </a>
+          </div>
+        </footer>
         </body>
     </html>
   );

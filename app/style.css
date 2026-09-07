@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+  --background: #0F1115;
+  --foreground: #F1F3F5;
+  --muted-foreground: #A7ADB8;
+  --surface: #181B21;
+  --accent: #4078F2;
+  --accent-hover: #5B8CFF;
+  --icon-color: #d1d1d1;
+}
+
+.title {
+  text-align: center;
+  font-size: 4em;
+  margin: 75px 0 20px 0;
+}
+
+h5, h6 {
+  color: var(--muted-foreground);
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin: 30px;
+}
+
+.builds-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#code-icon {
+  color: var(--icon-color);
+  font-weight: 700;
+  font-size: 4.15em;
+}
+
+a {
+  color: var(--foreground);
+}
+
+p {
+  text-align: center;
+}
