@@ -1,13 +1,13 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #0F1115;
+  --foreground: #F1F3F5;
+  --muted-foreground: #A7ADB8;
+  --surface: #181B21;
+  --accent: #4078F2;
+  --accent-hover: #5B8CFF;
 }
 
 html {
@@ -42,8 +42,48 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.navbar {
+  background: var(--surface);
+  color: var(--foreground);
+  --bs-navbar-color: var(--muted-foreground);
+  --bs-navbar-brand-color: var(--foreground);
+  --bs-navbar-brand-hover-color: var(--foreground);
+  --bs-navbar-hover-color: var(--foreground);
+  --bs-navbar-active-color: var(--foreground);
+  border-radius: 0 0 7.5px 7.5px;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+.navbar-brand:hover {
+  color: var(--accent-hover);
+  transition: color 300ms ease;
+}
+
+.nav-item a {
+  margin-left: 10px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition:
+      max-height 0.3s ease,
+      opacity 0.2s ease,
+      transform 0.3s ease;
+  }
+
+  .navbar-collapse.show {
+    max-height: 300px;
+    opacity: 1;
+    transform: translateY(0);
   }
 }
