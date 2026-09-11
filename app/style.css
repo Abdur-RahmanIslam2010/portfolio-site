@@ -26,13 +26,6 @@ h3 {
   margin: 30px;
 }
 
-.builds-cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 #code-icon {
   color: var(--icon-color);
   font-weight: 700;

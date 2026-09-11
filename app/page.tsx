@@ -12,7 +12,7 @@ export default function Home() {
       <h1 className="title">Hello!</h1>
       <h5>I'm Abdur-Rahman Islam, a software developer. Welcome to my website!</h5>
       <h3>Want to see what I can build?</h3>
-      <div className="builds-cards">
+      <div className="container">
         <div className="card">
           <span className={jetbrainsMono.className} id='code-icon'>{"</>"}</span>
           <div className="card-body">

@@ -6,8 +6,9 @@ export const metadata: Metadata = {
 
 export default function Projects() {
   return (
-    <div>
-      <p>Projects page</p>
-    </div>
+    <main>
+      <h3>Sorry for the slight inconvenience..</h3>
+      <h6>I'm trying to finish some more projects before I start working on this page. Won't take long.</h6>
+    </main>
   );
 }
