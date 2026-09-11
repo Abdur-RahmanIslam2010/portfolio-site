@@ -176,3 +176,13 @@ a {
 p {
   text-align: center;
 }
+
+h5, h6 {
+  color: var(--muted-foreground);
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin: 30px;
+}
