@@ -35,7 +35,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <a href="/my-skills">Check out more details →</a>
+      <a href="/my-skills" style={{margin: '10px 0 0 0'}}>Check out more details →</a>
       <h3>Here's what I'm doing now</h3>
       <h6>I'm currently working on more portfolio projects and develop my infrastructure further. I'm gonna start freelancing soon.</h6>
       <h3>Have something to build?</h3>
