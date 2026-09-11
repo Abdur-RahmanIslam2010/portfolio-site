@@ -48,6 +48,12 @@ body::before {
   );
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -161,4 +167,12 @@ body::before {
 .footer-link:hover {
     color: var(--foreground);
     text-decoration: underline;
+}
+
+a {
+  color: var(--foreground);
+}
+
+p {
+  text-align: center;
 }

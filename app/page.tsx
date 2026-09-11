@@ -28,13 +28,14 @@ export default function Home() {
           </div>
         </div>
         <div className="card">
-          <img src="kubernetes_logo.svg" alt="kub" className="card-img-top" />
+          <img src="kubernetes_logo.svg" alt="kubernetes logo" className="card-img-top" />
           <div className="card-body">
             <h5 className="card-title">Servers & Infrastructure</h5>
-            <p className="card-text">Experience in deployment, hosting, and server management</p>
+            <p className="card-text">Experience in deployment, hosting, server management...</p>
           </div>
         </div>
       </div>
+      <a href="/my-skills">Check out more details →</a>
       <h3>Here's what I'm doing now</h3>
       <h6>I'm currently working on more portfolio projects and develop my infrastructure further. I'm gonna start freelancing soon.</h6>
       <h3>Have something to build?</h3>
